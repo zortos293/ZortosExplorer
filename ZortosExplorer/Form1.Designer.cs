@@ -32,9 +32,9 @@ namespace ZortosExplorer
             this.components = new System.ComponentModel.Container();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.Textboxurl = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.Textboxurl = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
@@ -72,21 +72,20 @@ namespace ZortosExplorer
             this.guna2Panel1.Size = new System.Drawing.Size(956, 40);
             this.guna2Panel1.TabIndex = 1;
             // 
-            // guna2Button2
+            // guna2Button3
             // 
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.Gray;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(59, 8);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(39, 24);
-            this.guna2Button2.TabIndex = 1;
-            this.guna2Button2.Text = ">";
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
+            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
+            this.guna2Button3.FillColor = System.Drawing.Color.Gray;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.Parent = this.guna2Button3;
+            this.guna2Button3.Location = new System.Drawing.Point(913, 8);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
+            this.guna2Button3.Size = new System.Drawing.Size(29, 24);
+            this.guna2Button3.TabIndex = 3;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // Textboxurl
             // 
@@ -114,20 +113,21 @@ namespace ZortosExplorer
             this.Textboxurl.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Textboxurl_KeyDown);
             this.Textboxurl.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Textboxurl_KeyPress);
             // 
-            // guna2Button3
+            // guna2Button2
             // 
-            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.guna2Button3.FillColor = System.Drawing.Color.Gray;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Location = new System.Drawing.Point(913, 8);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(29, 24);
-            this.guna2Button3.TabIndex = 3;
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
+            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
+            this.guna2Button2.FillColor = System.Drawing.Color.Gray;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.HoverState.Parent = this.guna2Button2;
+            this.guna2Button2.Location = new System.Drawing.Point(59, 8);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
+            this.guna2Button2.Size = new System.Drawing.Size(39, 24);
+            this.guna2Button2.TabIndex = 1;
+            this.guna2Button2.Text = ">";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // webBrowser1
             // 

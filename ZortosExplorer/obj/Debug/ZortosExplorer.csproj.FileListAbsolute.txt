@@ -10,3 +10,15 @@ C:\Users\Zortos\source\repos\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplo
 C:\Users\Zortos\source\repos\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.csproj.CopyComplete
 C:\Users\Zortos\source\repos\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.exe
 C:\Users\Zortos\source\repos\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.pdb
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\ZortosExplorer.exe.config
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\ZortosExplorer.exe
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\ZortosExplorer.pdb
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.Form1.resources
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.Properties.Resources.resources
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.csproj.GenerateResource.cache
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.csproj.CoreCompileInputs.cache
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.csproj.Fody.CopyLocal.cache
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.csproj.CopyComplete
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.exe
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.pdb
