@@ -63,6 +63,26 @@ namespace ZortosExplorer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrow_96px {
+            get {
+                object obj = ResourceManager.GetObject("arrow_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_pointing_left_96px {
+            get {
+                object obj = ResourceManager.GetObject("arrow_pointing_left_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap c_drive_96px {
             get {
                 object obj = ResourceManager.GetObject("c_drive_96px", resourceCulture);
@@ -93,6 +113,16 @@ namespace ZortosExplorer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap copy_to_clipboard_96px {
+            get {
+                object obj = ResourceManager.GetObject("copy_to_clipboard_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hdd_96px {
             get {
                 object obj = ResourceManager.GetObject("hdd_96px", resourceCulture);
@@ -106,6 +136,26 @@ namespace ZortosExplorer.Properties {
         internal static System.Drawing.Bitmap minimize_window_96px {
             get {
                 object obj = ResourceManager.GetObject("minimize_window_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paste_96px {
+            get {
+                object obj = ResourceManager.GetObject("paste_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_52px {
+            get {
+                object obj = ResourceManager.GetObject("play_52px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

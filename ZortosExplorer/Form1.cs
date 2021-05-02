@@ -15,15 +15,21 @@ namespace ZortosExplorer
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
+
+            if (Textboxurl.Text.Contains("www"))
+            {
+                return;
+            }
             webBrowser1.Url = new Uri(Textboxurl.Text);
-            
+
         }
         string url = "";
-        
+
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (webBrowser1.CanGoBack)
@@ -56,16 +62,23 @@ namespace ZortosExplorer
 
         private void Textboxurl_KeyPress(object sender, KeyPressEventArgs e)
         {
-
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                if (Textboxurl.Text.Contains("www"))
+                {
+                    return;
+                }
+                webBrowser1.Url = new Uri(Textboxurl.Text);
+               
+            }
         }
-
+        
+       
         private void Textboxurl_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-            {
-                webBrowser1.Url = new Uri(Textboxurl.Text);
-            }
             
+
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -78,7 +91,10 @@ namespace ZortosExplorer
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            webBrowser1.Url = new Uri("b:\\");
+            webBrowser1.Url = new Uri("B:\\");
+            url = webBrowser1.Url.AbsoluteUri;
+            url = url.Remove(0, 8);
+            Textboxurl.Text = url;
         }
 
         private async void webBrowser1_Navigating(object sender, WebBrowserNavigatingEventArgs e)
@@ -99,7 +115,61 @@ namespace ZortosExplorer
 
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Url = new Uri("A:\\");
+            url = webBrowser1.Url.AbsoluteUri;
+            url = url.Remove(0, 8);
+            Textboxurl.Text = url;
+        }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Url = new Uri("D:\\");
+            url = webBrowser1.Url.AbsoluteUri;
+            url = url.Remove(0, 8);
+            Textboxurl.Text = url;
+        }
+
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Url = new Uri("F:\\");
+            url = webBrowser1.Url.AbsoluteUri;
+            url = url.Remove(0, 8);
+            Textboxurl.Text = url;
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Url = new Uri("E:\\");
+            url = webBrowser1.Url.AbsoluteUri;
+            url = url.Remove(0, 8);
+            Textboxurl.Text = url;
+        }
+
+        private void guna2Button13_Click(object sender, EventArgs e)
+        {
+            SendKeys.SendWait("^(v)");
+        }
+
+        private void guna2Button12_Click(object sender, EventArgs e)
+        {
+            SendKeys.SendWait("^(c)");
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
+
+    
 }

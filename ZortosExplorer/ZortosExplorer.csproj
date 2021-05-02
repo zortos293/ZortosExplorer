@@ -235,6 +235,21 @@
   <ItemGroup>
     <None Include="Resources\minimize_window_96px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy_to_clipboard_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_pointing_left_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_52px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.6.5.1\build\Fody.targets" Condition="Exists('..\packages\Fody.6.5.1\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
