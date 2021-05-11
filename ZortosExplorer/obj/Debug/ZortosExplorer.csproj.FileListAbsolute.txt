@@ -22,3 +22,8 @@ C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosE
 C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.csproj.CopyComplete
 C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.exe
 C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\obj\Debug\ZortosExplorer.pdb
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\System.Buffers.xml
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\System.Memory.xml
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Zortos\Documents\GitHub\ZortosExplorer\ZortosExplorer\bin\Debug\System.Text.Encoding.CodePages.xml

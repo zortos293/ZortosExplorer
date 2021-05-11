@@ -31,21 +31,21 @@ namespace ZortosExplorer
         {
             this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.Textboxurl = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.Fdrivebtn = new Guna.UI2.WinForms.Guna2Button();
+            this.Edrivebtn = new Guna.UI2.WinForms.Guna2Button();
+            this.Ddrivebtn = new Guna.UI2.WinForms.Guna2Button();
+            this.Cdrivebtn = new Guna.UI2.WinForms.Guna2Button();
+            this.Bdrivebtn = new Guna.UI2.WinForms.Guna2Button();
+            this.Adrivebtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
@@ -59,8 +59,24 @@ namespace ZortosExplorer
             this.guna2Panel1.Location = new System.Drawing.Point(-3, 59);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(956, 40);
+            this.guna2Panel1.Size = new System.Drawing.Size(999, 40);
             this.guna2Panel1.TabIndex = 1;
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
+            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
+            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.Parent = this.guna2Button3;
+            this.guna2Button3.Image = global::ZortosExplorer.Properties.Resources.play_52px;
+            this.guna2Button3.Location = new System.Drawing.Point(957, 8);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
+            this.guna2Button3.Size = new System.Drawing.Size(35, 24);
+            this.guna2Button3.TabIndex = 3;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // Textboxurl
             // 
@@ -87,207 +103,6 @@ namespace ZortosExplorer
             this.Textboxurl.TextChanged += new System.EventHandler(this.Textboxurl_TextChanged);
             this.Textboxurl.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Textboxurl_KeyDown);
             this.Textboxurl.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Textboxurl_KeyPress);
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Location = new System.Drawing.Point(3, 101);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(950, 453);
-            this.webBrowser1.TabIndex = 2;
-            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
-            this.webBrowser1.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowser1_Navigating);
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.ContainerControl = this;
-            this.guna2DragControl1.TargetControl = this;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Controls.Add(this.guna2Button11);
-            this.guna2Panel2.Controls.Add(this.guna2Button9);
-            this.guna2Panel2.Controls.Add(this.guna2Button10);
-            this.guna2Panel2.Controls.Add(this.guna2Button4);
-            this.guna2Panel2.Controls.Add(this.guna2Button5);
-            this.guna2Panel2.Controls.Add(this.guna2Button8);
-            this.guna2Panel2.Location = new System.Drawing.Point(11, 28);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(433, 25);
-            this.guna2Panel2.TabIndex = 7;
-            // 
-            // guna2Button11
-            // 
-            this.guna2Button11.CheckedState.Parent = this.guna2Button11;
-            this.guna2Button11.CustomImages.Parent = this.guna2Button11;
-            this.guna2Button11.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Button11.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button11.ForeColor = System.Drawing.Color.White;
-            this.guna2Button11.HoverState.Parent = this.guna2Button11;
-            this.guna2Button11.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
-            this.guna2Button11.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button11.Location = new System.Drawing.Point(360, 0);
-            this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.ShadowDecoration.Parent = this.guna2Button11;
-            this.guna2Button11.Size = new System.Drawing.Size(72, 25);
-            this.guna2Button11.TabIndex = 8;
-            this.guna2Button11.Text = "F:\\";
-            this.guna2Button11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
-            // 
-            // guna2Button9
-            // 
-            this.guna2Button9.CheckedState.Parent = this.guna2Button9;
-            this.guna2Button9.CustomImages.Parent = this.guna2Button9;
-            this.guna2Button9.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Button9.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button9.ForeColor = System.Drawing.Color.White;
-            this.guna2Button9.HoverState.Parent = this.guna2Button9;
-            this.guna2Button9.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
-            this.guna2Button9.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button9.Location = new System.Drawing.Point(288, 0);
-            this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.ShadowDecoration.Parent = this.guna2Button9;
-            this.guna2Button9.Size = new System.Drawing.Size(72, 25);
-            this.guna2Button9.TabIndex = 6;
-            this.guna2Button9.Text = "E:\\";
-            this.guna2Button9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
-            // 
-            // guna2Button10
-            // 
-            this.guna2Button10.CheckedState.Parent = this.guna2Button10;
-            this.guna2Button10.CustomImages.Parent = this.guna2Button10;
-            this.guna2Button10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Button10.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button10.ForeColor = System.Drawing.Color.White;
-            this.guna2Button10.HoverState.Parent = this.guna2Button10;
-            this.guna2Button10.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
-            this.guna2Button10.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button10.Location = new System.Drawing.Point(216, 0);
-            this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.ShadowDecoration.Parent = this.guna2Button10;
-            this.guna2Button10.Size = new System.Drawing.Size(72, 25);
-            this.guna2Button10.TabIndex = 7;
-            this.guna2Button10.Text = "D:\\";
-            this.guna2Button10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button10.Click += new System.EventHandler(this.guna2Button10_Click);
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = global::ZortosExplorer.Properties.Resources.c_drive_96px;
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.Location = new System.Drawing.Point(144, 0);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(72, 25);
-            this.guna2Button4.TabIndex = 3;
-            this.guna2Button4.Text = "C:\\";
-            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
-            // 
-            // guna2Button5
-            // 
-            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
-            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
-            this.guna2Button5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button5.Location = new System.Drawing.Point(72, 0);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-            this.guna2Button5.Size = new System.Drawing.Size(72, 25);
-            this.guna2Button5.TabIndex = 4;
-            this.guna2Button5.Text = "B:\\";
-            this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
-            // 
-            // guna2Button8
-            // 
-            this.guna2Button8.CheckedState.Parent = this.guna2Button8;
-            this.guna2Button8.CustomImages.Parent = this.guna2Button8;
-            this.guna2Button8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Button8.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.HoverState.Parent = this.guna2Button8;
-            this.guna2Button8.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
-            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button8.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
-            this.guna2Button8.Size = new System.Drawing.Size(72, 25);
-            this.guna2Button8.TabIndex = 5;
-            this.guna2Button8.Text = "A:\\";
-            this.guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.BorderRadius = 6;
-            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
-            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
-            this.guna2Button7.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Image = global::ZortosExplorer.Properties.Resources.minimize_window_96px;
-            this.guna2Button7.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button7.Location = new System.Drawing.Point(888, 3);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(26, 24);
-            this.guna2Button7.TabIndex = 6;
-            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.BorderRadius = 6;
-            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
-            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
-            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Image = global::ZortosExplorer.Properties.Resources.close_window_96px;
-            this.guna2Button6.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button6.Location = new System.Drawing.Point(920, 3);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(26, 24);
-            this.guna2Button6.TabIndex = 5;
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Image = global::ZortosExplorer.Properties.Resources.play_52px;
-            this.guna2Button3.Location = new System.Drawing.Point(907, 8);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(35, 24);
-            this.guna2Button3.TabIndex = 3;
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button2
             // 
@@ -321,12 +136,197 @@ namespace ZortosExplorer
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(3, 101);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(993, 453);
+            this.webBrowser1.TabIndex = 2;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
+            this.webBrowser1.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowser1_Navigating);
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.ContainerControl = this;
+            this.guna2DragControl1.TargetControl = this;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Controls.Add(this.Fdrivebtn);
+            this.guna2Panel2.Controls.Add(this.Edrivebtn);
+            this.guna2Panel2.Controls.Add(this.Ddrivebtn);
+            this.guna2Panel2.Controls.Add(this.Cdrivebtn);
+            this.guna2Panel2.Controls.Add(this.Bdrivebtn);
+            this.guna2Panel2.Controls.Add(this.Adrivebtn);
+            this.guna2Panel2.Location = new System.Drawing.Point(11, 28);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.guna2Panel2.Size = new System.Drawing.Size(433, 25);
+            this.guna2Panel2.TabIndex = 7;
+            // 
+            // Fdrivebtn
+            // 
+            this.Fdrivebtn.CheckedState.Parent = this.Fdrivebtn;
+            this.Fdrivebtn.CustomImages.Parent = this.Fdrivebtn;
+            this.Fdrivebtn.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Fdrivebtn.FillColor = System.Drawing.Color.Transparent;
+            this.Fdrivebtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Fdrivebtn.ForeColor = System.Drawing.Color.White;
+            this.Fdrivebtn.HoverState.Parent = this.Fdrivebtn;
+            this.Fdrivebtn.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
+            this.Fdrivebtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Fdrivebtn.Location = new System.Drawing.Point(360, 0);
+            this.Fdrivebtn.Name = "Fdrivebtn";
+            this.Fdrivebtn.ShadowDecoration.Parent = this.Fdrivebtn;
+            this.Fdrivebtn.Size = new System.Drawing.Size(72, 25);
+            this.Fdrivebtn.TabIndex = 8;
+            this.Fdrivebtn.Text = "F:\\";
+            this.Fdrivebtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Fdrivebtn.Click += new System.EventHandler(this.guna2Button11_Click);
+            // 
+            // Edrivebtn
+            // 
+            this.Edrivebtn.CheckedState.Parent = this.Edrivebtn;
+            this.Edrivebtn.CustomImages.Parent = this.Edrivebtn;
+            this.Edrivebtn.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Edrivebtn.FillColor = System.Drawing.Color.Transparent;
+            this.Edrivebtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Edrivebtn.ForeColor = System.Drawing.Color.White;
+            this.Edrivebtn.HoverState.Parent = this.Edrivebtn;
+            this.Edrivebtn.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
+            this.Edrivebtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Edrivebtn.Location = new System.Drawing.Point(288, 0);
+            this.Edrivebtn.Name = "Edrivebtn";
+            this.Edrivebtn.ShadowDecoration.Parent = this.Edrivebtn;
+            this.Edrivebtn.Size = new System.Drawing.Size(72, 25);
+            this.Edrivebtn.TabIndex = 6;
+            this.Edrivebtn.Text = "E:\\";
+            this.Edrivebtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Edrivebtn.Click += new System.EventHandler(this.guna2Button9_Click);
+            // 
+            // Ddrivebtn
+            // 
+            this.Ddrivebtn.CheckedState.Parent = this.Ddrivebtn;
+            this.Ddrivebtn.CustomImages.Parent = this.Ddrivebtn;
+            this.Ddrivebtn.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Ddrivebtn.FillColor = System.Drawing.Color.Transparent;
+            this.Ddrivebtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Ddrivebtn.ForeColor = System.Drawing.Color.White;
+            this.Ddrivebtn.HoverState.Parent = this.Ddrivebtn;
+            this.Ddrivebtn.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
+            this.Ddrivebtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Ddrivebtn.Location = new System.Drawing.Point(216, 0);
+            this.Ddrivebtn.Name = "Ddrivebtn";
+            this.Ddrivebtn.ShadowDecoration.Parent = this.Ddrivebtn;
+            this.Ddrivebtn.Size = new System.Drawing.Size(72, 25);
+            this.Ddrivebtn.TabIndex = 7;
+            this.Ddrivebtn.Text = "D:\\";
+            this.Ddrivebtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Ddrivebtn.Click += new System.EventHandler(this.guna2Button10_Click);
+            // 
+            // Cdrivebtn
+            // 
+            this.Cdrivebtn.CheckedState.Parent = this.Cdrivebtn;
+            this.Cdrivebtn.CustomImages.Parent = this.Cdrivebtn;
+            this.Cdrivebtn.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Cdrivebtn.FillColor = System.Drawing.Color.Transparent;
+            this.Cdrivebtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Cdrivebtn.ForeColor = System.Drawing.Color.White;
+            this.Cdrivebtn.HoverState.Parent = this.Cdrivebtn;
+            this.Cdrivebtn.Image = global::ZortosExplorer.Properties.Resources.c_drive_96px;
+            this.Cdrivebtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Cdrivebtn.Location = new System.Drawing.Point(144, 0);
+            this.Cdrivebtn.Name = "Cdrivebtn";
+            this.Cdrivebtn.ShadowDecoration.Parent = this.Cdrivebtn;
+            this.Cdrivebtn.Size = new System.Drawing.Size(72, 25);
+            this.Cdrivebtn.TabIndex = 3;
+            this.Cdrivebtn.Text = "C:\\";
+            this.Cdrivebtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Cdrivebtn.Click += new System.EventHandler(this.guna2Button4_Click);
+            // 
+            // Bdrivebtn
+            // 
+            this.Bdrivebtn.CheckedState.Parent = this.Bdrivebtn;
+            this.Bdrivebtn.CustomImages.Parent = this.Bdrivebtn;
+            this.Bdrivebtn.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Bdrivebtn.FillColor = System.Drawing.Color.Transparent;
+            this.Bdrivebtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Bdrivebtn.ForeColor = System.Drawing.Color.White;
+            this.Bdrivebtn.HoverState.Parent = this.Bdrivebtn;
+            this.Bdrivebtn.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
+            this.Bdrivebtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Bdrivebtn.Location = new System.Drawing.Point(72, 0);
+            this.Bdrivebtn.Name = "Bdrivebtn";
+            this.Bdrivebtn.ShadowDecoration.Parent = this.Bdrivebtn;
+            this.Bdrivebtn.Size = new System.Drawing.Size(72, 25);
+            this.Bdrivebtn.TabIndex = 4;
+            this.Bdrivebtn.Text = "B:\\";
+            this.Bdrivebtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Bdrivebtn.Click += new System.EventHandler(this.guna2Button5_Click);
+            // 
+            // Adrivebtn
+            // 
+            this.Adrivebtn.CheckedState.Parent = this.Adrivebtn;
+            this.Adrivebtn.CustomImages.Parent = this.Adrivebtn;
+            this.Adrivebtn.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Adrivebtn.FillColor = System.Drawing.Color.Transparent;
+            this.Adrivebtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Adrivebtn.ForeColor = System.Drawing.Color.White;
+            this.Adrivebtn.HoverState.Parent = this.Adrivebtn;
+            this.Adrivebtn.Image = global::ZortosExplorer.Properties.Resources.hdd_96px;
+            this.Adrivebtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Adrivebtn.Location = new System.Drawing.Point(0, 0);
+            this.Adrivebtn.Name = "Adrivebtn";
+            this.Adrivebtn.ShadowDecoration.Parent = this.Adrivebtn;
+            this.Adrivebtn.Size = new System.Drawing.Size(72, 25);
+            this.Adrivebtn.TabIndex = 5;
+            this.Adrivebtn.Text = "A:\\";
+            this.Adrivebtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Adrivebtn.Click += new System.EventHandler(this.guna2Button8_Click);
+            // 
+            // guna2Button7
+            // 
+            this.guna2Button7.BorderRadius = 6;
+            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
+            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
+            this.guna2Button7.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button7.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.HoverState.Parent = this.guna2Button7;
+            this.guna2Button7.Image = global::ZortosExplorer.Properties.Resources.minimize_window_96px;
+            this.guna2Button7.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button7.Location = new System.Drawing.Point(938, 3);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
+            this.guna2Button7.Size = new System.Drawing.Size(26, 24);
+            this.guna2Button7.TabIndex = 6;
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.BorderRadius = 6;
+            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
+            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
+            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.Parent = this.guna2Button6;
+            this.guna2Button6.Image = global::ZortosExplorer.Properties.Resources.close_window_96px;
+            this.guna2Button6.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button6.Location = new System.Drawing.Point(970, 3);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
+            this.guna2Button6.Size = new System.Drawing.Size(26, 24);
+            this.guna2Button6.TabIndex = 5;
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ClientSize = new System.Drawing.Size(951, 558);
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.ClientSize = new System.Drawing.Size(1001, 559);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Button7);
             this.Controls.Add(this.guna2Button6);
@@ -351,15 +351,15 @@ namespace ZortosExplorer
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button Cdrivebtn;
+        private Guna.UI2.WinForms.Guna2Button Bdrivebtn;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button11;
-        private Guna.UI2.WinForms.Guna2Button guna2Button10;
-        private Guna.UI2.WinForms.Guna2Button guna2Button9;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2Button Fdrivebtn;
+        private Guna.UI2.WinForms.Guna2Button Ddrivebtn;
+        private Guna.UI2.WinForms.Guna2Button Edrivebtn;
+        private Guna.UI2.WinForms.Guna2Button Adrivebtn;
     }
 }
 
