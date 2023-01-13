@@ -1,3 +1,6 @@
+# this project is not maintained anymore!!
+
+
 # ZortosExplorer
 Explorer Alternative made by Zortos293
 
